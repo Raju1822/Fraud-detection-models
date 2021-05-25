@@ -9,6 +9,8 @@ The objective of this project is to build a real time Application Fraud algorith
 
 > The model developed in this project will be able to predict in real-time, the probability of a new application in the system being fraudulent with 99.1% accuracy and 80% precision.
 
+![alt text](https://github.com/sneha-raj/Fraud-detection-models/blob/master/Summary.png)
+
 ## Process Overview
 - Data Pre-processing
   - The dataset contained one million records and ten fields. 
