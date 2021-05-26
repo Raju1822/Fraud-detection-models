@@ -1,5 +1,9 @@
-# Application Fraud Detection :female_detective:
-## Overview
+# FRAUD DETECTION MODELS
+- Notebook 1: Application Fraud Detection
+- Notebook 2: Property Tax Fraud Detection
+
+## Application Fraud Detection :female_detective:
+### Overview
 Application Fraud is a form of identity fraud that involves a fraudster applying for a new account in a service or product using stolen or synthetic identities. The targets are often bank accounts, credit or debit cards, public administration, e-commerce, and loans, to name a few. This type of fraud is often the consequence of previously accomplished data breaches that provide the fraudster with massive personal information data sets. These are used to forge synthetic identities or to impersonate somebody else.
 
 While it is impossible for a human being to quickly and accurately evaluate each application that arrives at a banking institution for fraud, machine learning models made much progress in detecting application fraud over the past few decades. 
@@ -11,7 +15,7 @@ The objective of this project is to build a real time Application Fraud algorith
 
 ![alt text](https://github.com/sneha-raj/Fraud-detection-models/blob/master/Summary.png)
 
-## Process Overview
+### Process Overview
 - Data Pre-processing
   - The dataset contained one million records and ten fields. 
   - A data quality check revealed four variables with frivolous values which were replaced to avoid bias in modelling. 
@@ -34,5 +38,9 @@ The objective of this project is to build a real time Application Fraud algorith
   - The best model with the highest training FDR was chosen and further tuned on different hyperparameter combinations and minority oversampling techniques.
   - The best model was a Random Forest model with 50 trees and a node size of 300 and was able to achieve a 55.7% FDR on the test dataset by selecting 20 features. 
 
-## Summary
+### Summary
 In summary,a supervised model to predict application fraud in real-time was built. The model utilizes the most relevant 30 candidate variables determined by a multi-step feature selection process that was implemented after creating an in-depth data quality report, cleaning the data by replacing frivolous values, and creating entities and combination groups that allowed us to engineer 601 candidate variables. After testing various models with these top 30 candidate variables, a Random Forest Model was determined to be best able to predict fraud. This model was fine-tuned by varying a number of parameters to select the best Random Forest model. The final Random Forest model selected had a fraud detection rate of 56% in the test dataset using 20 out of the 30 features input to it.
+
+
+## New York Property Tax Fraud Detection
+
